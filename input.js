@@ -30,6 +30,18 @@ const handleUserInput = data => {
   else if (data === 'd') {
     connection.write('Move: right');
   }
+  else if (data === 'g') {
+    connection.write('Say: GL HF');
+  }
+  else if (data === 'h') {
+    connection.write('Say: HAHAHA');
+  }
+  else if (data === 'j') {
+    connection.write('Say: REKT');
+  }
+  else if (data === 'k') {
+    connection.write('Say: SNEKKY');
+  }
 };
 
 module.exports = setupInput;
